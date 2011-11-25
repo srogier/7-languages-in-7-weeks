@@ -39,7 +39,7 @@ puts hash.to_a.inspect
 #Can you iterate through a hash?
 puts '---- iteration ----'
 hash = {:foo => "str", :bar => 42 }
-hash.each { |key, value| puts key.to_s, value.to_s}
+hash.each { |key, value| puts key, value}
 
 #You can use Ruby arrays as stacks. What other common data structures do arrays support?
 
